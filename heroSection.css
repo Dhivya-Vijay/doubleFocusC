@@ -1,0 +1,79 @@
+/* ::::CSS Sequence (6 Steps):::: */
+/* Step1: parentContainer */
+/* Step2: componentContainer */
+/* Step3: component */
+/* Step4: row */
+/* Step5: column */
+/* Step6: contentContainer */
+
+
+/* Step1: parentContainer */
+/* <header>,<main> & <footer> */
+/* code written in Default CSS */
+
+/* Step2: componentContainer */
+.heroContainer {
+    /* background-color: #cbdc13; */
+    background-image: url(./assets/image/heroSection.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    width: auto;
+}
+
+/* Step3: component */
+.heroSection {
+    /* background-color: #cb760e; */
+}
+
+/* Step4: row-1 */
+.heroBody {
+    /* background-color: #800080; */
+    color: #fff;
+    margin-top: 8rem;
+    margin-left: 3rem;
+}
+
+/* Step5: column-1 */
+.websiteDesignBlock {
+    /* background-color: #8f8fe3; */
+}
+
+/* Step6: contentContainer */
+.websiteDesignBlock h1 {
+    /* background-color: #ffdead; */
+    font-family:'Poppins', sans-serif;
+    font-size: 8.5rem;
+    font-weight: 600;
+    line-height:10rem;
+}
+
+.websiteDesignBlock p {
+    /* background-color: #ff69b4; */
+    font-size: 2.3rem;
+    font-family:'Poppins', sans-serif;
+    font-weight: 500;
+    margin-right: 55rem;
+    margin-top: 9rem;
+}
+
+.websiteDesignBlock span {
+    /* background-color: gold; */
+}
+
+.websiteDesignBlock span button {
+    background-color:#e7232d;
+    color: #fff;
+    border: none;
+    margin-top: 9rem;
+    margin-bottom: 7rem;
+    margin-left: 1.5rem;
+    padding-bottom: 2.3rem;
+    padding-left: 4.0rem;
+    padding-right: 4.0rem;
+    padding-top: 2.3rem;
+    font-family: "Roboto", sans-serif;
+    font-size: 1.6rem;
+    font-weight: 700;
+}

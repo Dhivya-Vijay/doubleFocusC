@@ -1,0 +1,172 @@
+/* ::::CSS Sequence (6 Steps):::: */
+/* Step1: parentContainer */
+/* Step2: componentContainer */
+/* Step3: component */
+/* Step4: row */
+/* Step5: column */
+/* Step6: contentContainer */
+
+
+/* Step1: parentContainer */
+/* <header>,<main> & <footer> */
+/* code written in Default CSS */
+
+/* Step2: componentContainer */
+.threeCardContainer {
+    background-image: url(./assets/image/heroSection.jpg);
+    /* background-color: #dfedf3; */
+}
+
+/* Step3: component */
+.threeCard {
+    /* background-color: azure; */
+    margin-top: 8rem;
+}
+
+/* Step4: row */
+.threeCardBody {
+    /* background-color: #b30d6e; */
+    margin-top: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+}
+
+/* Step5: column-1 */
+.decideBlock {
+    border: 1px solid #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #0072C6;
+    color: #fff;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 5rem;
+    width: 30%;
+    position: relative;
+}
+
+/* Step6: contentContainer */
+.decideBlock h3 {
+    /* background-color: #5b9405; */
+    margin-top: 6rem;
+    font-family: 'Nexa',sans-serif;
+    font-size: 3.5rem;
+    /* line-height: 2.8rem; */
+    text-align: center;
+}
+
+.decideBlock p {
+    /* background-color: #ff6347; */
+    font-family: 'FuturaPT-Book',serif;
+    color: #fff;
+    font-size: 2.2rem;
+    text-align: center;
+    margin-top: 3rem;
+}
+
+/* Step5: column-2 */
+.planBlock {
+    /* background-color: hsl(191, 92%, 48%);*/
+    border: 1px solid #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #fff;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 5rem;
+    width: 30%;
+    position: relative;
+}
+
+/* Step6: contentContainer */
+.planBlock h3 {
+    /* background-color: #5b9405; */
+    margin-top: 6rem;
+    font-family: "Nexa",sans-serif;
+    font-size: 3.1rem;
+    text-align: center;
+    color: #040c26;
+}
+
+.planBlock p {
+    /* background-color: #ff6347; */
+    font-family: "FuturaPT-Book",serif;
+    color: #040c26;
+    font-size: 2.2rem;
+    text-align: center;
+    margin-top: 3rem;
+}
+
+/* Step5: column-3 */
+.reviewBlock {
+    background-color:#fff;
+    border: 1px solid #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 5rem;
+    width: 30%;
+    position: relative;
+}
+
+/* Step6: contentContainer */
+.reviewBlock h3 {
+    /* background-color: #5b9405; */
+    margin-top: 6rem;
+    font-family: 'Nexa',sans-serif;
+    font-size: 3.1rem;
+    text-align: center;
+    color: #040c26;
+}
+
+.reviewBlock p {
+    /* background-color: #ff6347; */
+    font-family: 'FuturaPT-Book',serif;
+    color: #040c26;
+    font-size: 2.2rem;
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.cardNumber1 {
+    background-color: #fff;
+    color: #0072C6;
+    position: absolute;
+    top: -5rem;
+    left: 17.5rem;
+    border-radius: 50%;
+    width: 10rem;
+    height: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5rem;
+    font-weight: 900;
+}
+.cardNumber2 {
+    background-color: #0072c6;
+    color:#fff;
+    position: absolute;
+    top: -5rem;
+    left: 17.5rem;
+    border-radius: 50%;
+    width: 10rem;
+    height: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5rem;
+    font-weight: 900;
+}

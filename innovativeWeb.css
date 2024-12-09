@@ -1,0 +1,113 @@
+/* ::::CSS Sequence (6 Steps):::: */
+/* Step1: parentContainer */
+/* Step2: componentContainer */
+/* Step3: component */
+/* Step4: row */
+/* Step5: column */
+/* Step6: contentContainer */
+
+
+/* Step1: parentContainer */
+/* <header>,<main> & <footer> */
+/* code written in Default CSS */
+
+/* Step2: componentContainer */
+.innovativeWebContainer {
+    /* background-color: #ffe4c4; */
+}
+
+/* Step3: component */
+.innovativeWeb {
+    background-color: #fff;
+}
+
+/* Step4: row */
+.innovativeWebBody {
+    /* background-color: #ff69b4; */
+    height: 100vh;
+    margin-top: 8rem;
+    margin-bottom: 15rem;
+}
+
+/* Step5: column-1*/
+.innovativeDetailsBlock {
+    /* background-color: #14aeae; */
+    margin-left: 4rem;
+    margin-right: 6rem;
+}
+
+/* Step6: contentContainer */
+.innovativeDetailsBlock h4 {
+    /* background-color: #9e86b5; */
+    font-family: 'FuturaPT-Book', sans-serif;
+    font-size: 3.0rem;
+    margin-bottom: 1.0rem;
+    font-weight: 400;
+    color: #d2151e;
+}
+
+.innovativeDetailsBlock h2 {
+    /* background-color:#0c246d ; */
+    font-family: 'FuturaPT-Book', sans-serif;
+    font-size: 5rem;
+    font-weight: 400;
+    color: #4c4c4c;
+}
+
+.innovativeDetailsBlock h3 {
+    /* background-color:#0c246d ; */
+    font-size: 5rem;
+    font-weight: 400;
+    color: #d2151e;
+}
+
+.innovativeDetailsBlock p {
+    /* background-color: #df9999; */
+    margin-bottom: 2.4rem;
+    margin-top: 3rem;
+}
+
+.quiz {
+    color: #4c4c4c;
+    font-family: 'FuturaPT-Demi', sans-serif;
+    font-size: 2rem;
+    font-weight: 300;
+}
+
+.paraDetails {
+    font-family: "FuturaPT-Book", sans-serif;
+    margin-bottom: 2.4px;
+    font-size: 2.2rem;
+    font-weight: 200;
+    color: #040c26;
+    text-align: justify;
+    line-height: 3.6rem;
+}
+
+.innovativeDetailsBlock button {
+    background-color: #dc143c;
+    color: #fff;
+    border: none;
+    border-radius: 0.5rem;
+    padding-bottom: 2rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    padding-top: 2rem;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+
+/* Column-2 */
+.innovativeImageBlock {
+    margin-top: 3rem;
+}
+
+.innovativeImageBlock img {
+    /* background-color: aqua;*/
+    /* border: 2px solid black; */
+    /* margin-top:37rem; */
+    border-radius: 1.5rem;
+    height: 110vh;
+    width: auto;
+}

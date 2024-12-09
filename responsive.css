@@ -1,0 +1,80 @@
+/* ::::: RESPONSIVE DESIGN DEVICE SIZES ::::: */
+
+/* for Responsive Target the ROW Code (display:grid) */
+
+/* Small devices (landscape phones, upto 576px and below) */
+@media (width <=576px) {
+
+    .grid-1,
+    .grid-2,
+    .grid-3,
+    .grid-4 {
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 0rem 1rem;
+    }
+
+    .navBody {
+        background-color: #ffffff;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        /* padding: rem; */
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .logo {
+        /* background-color: #fff; */
+        padding: 1rem 0rem;
+        margin-left: 2rem;
+    }
+
+    .logo img {
+        /* background-color: #ae9dfd; */
+        height: 4rem;
+        width: auto;
+    }
+
+    .navLinks {
+        background-color: #d2151e;
+        display: none;
+        gap: 1rem;
+    }
+
+    .navLinks li a {
+        /* background-color: #06c9af; */
+        padding: 1.3rem;
+        text-decoration: none;
+        font-size: 1rem;
+        color: #fff;
+        font-weight: 450;
+        font-family: 'FuturaPT-Book', sans-serif;
+
+    }
+
+    
+
+}
+
+/* Medium devices (tablets, upto 768px and above) */
+@media (width >=577px) and (width <=768px) {
+    /* write code here */
+}
+
+
+/* Large devices (Laptops, upto 992px and above) */
+@media (width >=769px) and (width <=992px) {
+    /* write code here */
+}
+
+
+/* X-Large devices (large desktops, upto 1200px and above) */
+@media (width >=993px) and (width <=1200px) {
+    /* write code here */
+}
+
+
+/* XX-Large devices (larger desktops, upto 1400px and above) */
+@media (width >=1200px) {
+    /* write code here */
+}

@@ -1,0 +1,145 @@
+/* ::::CSS Sequence (6 Steps):::: */
+/* Step1: parentContainer */
+/* Step2: componentContainer */
+/* Step3: component */
+/* Step4: row */
+/* Step5: column */
+/* Step6: contentContainer */
+
+
+/* Step1: parentContainer */
+/* <header>,<main> & <footer> */
+/* code written in Default CSS */
+
+/* Step2: componentContainer */
+.professionalCardContainer {
+    /* background-color: aqua; */
+    margin-top: 10rem;
+}
+
+/* Step3: component */
+.professionalCard {
+    /* background-color: bisque; */
+}
+
+/* Step4: row-1 */
+.headingBody {
+    /* background-color: salmon; */
+}
+
+/* Step5: column-1.1 */
+.headingBlock {
+    /* background-color: seagreen; */
+}
+
+/* Step6: contentContainer */
+.headingBlock h2 {
+    /* background-color: silver; */
+    margin-bottom: 0.5rem;
+    padding-top: 1rem;
+    font-family: 'Nexa', sans-serif;
+    font-size: 4.5rem;
+    font-weight: 600;
+    color: #040c26;
+}
+
+/* Step4: row-2 */
+.peopleBody {
+    /* background-color: springgreen; */
+}
+
+/* Step5: column-2.1 */
+.peopleBlock {
+    /* background-color: darkkhaki; */
+}
+
+/* Step6: contentContainer */
+.peopleBlock p {
+    /* background-color: darkgoldenrod; */
+    color: #d2151e;
+    margin-bottom: 2.5rem;
+    padding-top: 1rem;
+    font-family: 'FuturaPT-Book', serif;
+    font-size: 3rem;
+    font-weight: 400;
+}
+
+/* Step4: row-3 */
+.cardBody {
+    /* background-color: fuchsia; */
+    /* gap: rem; */
+    margin-left: 8rem;
+    margin-right: 8rem;
+    margin-top: 10rem;
+    /* font-family: FuturaPT-Book; */
+}
+
+/* Step5: column-3.1 */
+.card1Block {
+    /* background-color: greenyellow; */
+    border: 1px solid #dfedf3;
+    border-radius: 1rem;
+    background-color: #fff;
+}
+
+/* Step6: contentContainer */
+.card1Block a {
+    /* background-color: red; */
+    text-align: left;
+    color: #d2151e;
+    font-size: 9rem;
+    padding-left: 2rem;
+}
+
+.card1Block p {
+    /* background-color: darkorange; */
+    font-family: 'FuturaPT-Book', serif;
+    font-size: 2rem;
+    font-weight: 400;
+    text-align: start;
+    color: #040c26;
+    padding-left: 20px;
+    margin-bottom: 3rem;
+}
+
+/* Step5: column-3.2 */
+.detailsBlock {
+    /* background-color: aqua; */
+    margin-top: 2rem;
+    padding-left: 2rem;
+}
+
+/* Step6: contentContainer */
+.detailsBlock img {
+    /* background-color: bisque; */
+}
+
+.span {
+    /* background-color: hotpink; */
+    /* margin-left: 2rem; */
+    margin-top: 3rem;
+}
+
+.blackClr {
+    color: #040c26;
+    margin-bottom: 0.5rem;
+    font-family: 'FuturaPT-Book', serif;
+    font-size: 2rem;
+    font-weight: 500;
+    text-align: left;
+    margin-left: 2rem;
+}
+
+.span p {
+    color: #d2151e;
+    font-family: 'FuturaPT-Book', serif;
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-align: left;
+}
+
+hr {
+    border: 1px solid #e6e9ea;
+    width: 100%;
+    background-color: #007BFF;
+}

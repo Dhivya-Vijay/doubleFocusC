@@ -1,0 +1,81 @@
+/* ::::CSS Sequence (6 Steps):::: */
+/* Step1: parentContainer */
+/* Step2: componentContainer */
+/* Step3: component */
+/* Step4: row */
+/* Step5: column */
+/* Step6: contentContainer */
+
+
+/* Step1: parentContainer */
+/* <header>,<main> & <footer> */
+/* code written in Default CSS */
+
+/* Step2: componentContainer */
+.trustedClientsContainer {
+    /* background-color: #ff69b4; */
+}
+
+/* Step3: component */
+.trustedClient {
+    /* background-color: #69beff; */
+    background-color: #dfedf3;
+    padding-top: 8rem;
+}
+
+/* Step4: row-1 */
+.headingLineBody {
+    /* background-color: #0fce4b; */
+}
+
+/* Step5: column-1.1 */
+.headingLineBlock {
+    /* background-color: #ff8569; */
+}
+
+/* Step6: contentContainer */
+.headingLineBlock p {
+    /* background-color: #07bebe; */
+    font-family: 'FuturaPT-Book', sans-serif;
+    font-size: 4rem;
+    font-weight: 500;
+}
+
+/* Step4: row-2 */
+.paraLineBody {
+    /* background-color: #b7ec06; */
+}
+
+/* Step5: column-2.1 */
+.paraLineBlock {
+    /* background-color: #971f09; */
+}
+
+/* Step6: contentContainer */
+.paraLineBlock p {
+    /* background-color: #c50ee1; */
+    font-family: 'FuturaPT-Book', sans-serif;
+    font-size: 3.7rem;
+    font-weight: 550;
+    color: #d2151e;
+}
+
+/* Step4: row-3 */
+.trustedImageBody {
+    /* background-color: #080485; */
+    padding-bottom: 15rem;
+}
+
+/* Step5: column-3.1 */
+.trustedImageBlock {
+    /* background-color: #d0e585; */
+    gap: 6rem;
+    margin-top: 10rem;
+}
+
+/* Step6: contentContainer */
+.trustedImageBlock img {
+    background-color: #ffff;
+    /* border: 2px solid black; */
+    padding: 2rem 2rem;
+}

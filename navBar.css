@@ -1,0 +1,60 @@
+/* ::::CSS Sequence (6 Steps):::: */
+/* Step1: parentContainer */
+/* Step2: componentContainer */
+/* Step3: component */
+/* Step4: row */
+/* Step5: column */
+/* Step6: contentContainer */
+
+
+/* Step1: parentContainer */
+/* <header>,<main> & <footer> */
+/* code written in Default CSS */
+
+/* Step2: componentContainer */
+.navContainer {
+    /* background-color: #9b065a; */
+}
+
+/* Step3: component */
+.navBar {
+    /* background-color: #440cdf; */
+} 
+
+/* Step4: row */
+.navBody {
+    background-color: #ffffff; 
+    grid-template-columns: 1fr 3fr;  
+    padding: 0rem;
+}
+/* Step5: column-1 */
+.logoBlock {
+    /* background-color: #fff; */
+    padding: 1.3rem 0rem;
+    margin-left: 6rem;
+}
+/* Step6: contentContainer */
+.logoBlock img {
+    /* background-color: #ae9dfd; */
+    height: 6.2rem;
+    width: auto;
+}
+/* Step5: column-2 */
+.navLinksBlock {
+    background-color: #d2151e;
+     gap: 3rem;
+    }
+/* Step6: contentContainer */
+.navLinksBlock li {
+    /* background-color: #097953; */
+    list-style-type: none;    
+}
+.navLinksBlock li a {
+    /* background-color: #06c9af; */
+    text-decoration: none;
+    font-size: 2.2rem;
+    color: #fff;
+    font-weight: 450;
+    font-family: 'FuturaPT-Book',sans-serif;
+    /* letter-spacing: 0.1rem; */
+}

@@ -1,0 +1,65 @@
+/* ::::CSS Sequence (6 Steps):::: */
+/* Step1: parentContainer */
+/* Step2: componentContainer */
+/* Step3: component */
+/* Step4: row */
+/* Step5: column */
+/* Step6: contentContainer */
+
+
+/* Step1: parentContainer */
+/* <header>,<main> & <footer> */
+/* code written in Default CSS */
+
+/* Step2: componentContainer */
+.feelFreeContainer{
+    /* background-color: #068e61; */
+}
+
+/* Step3: component */
+.feelFree{
+    /* background-color: #e8b90d; */
+}
+
+/* Step4: row */
+.feelFreeBody{
+    background-color: #4829a0;
+    grid-template-columns: 1fr 6fr 2fr;
+    padding-top: 6rem;
+    padding-bottom: 6rem;  
+}
+
+/* Step5: column-1 */
+.iconImageBlock{
+    /* background-color: #df9fbd;  */
+}
+
+/* Step6: contentContainer */
+.iconImageBlock img{
+    /* background-color: #686806; */
+    padding: 1rem;
+    margin-left: 2rem;
+}
+
+/* Step5: column-2 */
+.paraBlock{
+    /* background-color: #cd853f; */
+}
+.paraBlock h4{
+    /* background-color: #c90862; */
+    font-size: 4rem;
+    font-weight: 400;
+    color: #ffff;
+}
+.paraBlock p{
+    /* background-color: #7bbcf8; */
+    font-size: 2.3rem;
+    color: #ffff;
+}
+button{
+    background-color:#d2151e;
+    padding: 2rem 4rem;
+    font-size: 2rem;
+    color: #ffff;
+    font-weight: 600;
+}
